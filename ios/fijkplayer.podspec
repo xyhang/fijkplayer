@@ -28,7 +28,7 @@ Flutter plugin for ijkplayer
 
   # s.use_frameworks!
 
-  # s.dependency 'BIJKPlayer', '~> 0.7.16'
+  s.dependency 'BIJKPlayer' , :git => 'https://e.coding.net/angxyh/linjia/BIJKPlayer.git',
 
   s.ios.deployment_target = '8.0'
 end
