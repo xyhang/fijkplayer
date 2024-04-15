@@ -28,7 +28,8 @@ Flutter plugin for ijkplayer
 
   # s.use_frameworks!
 
-  s.dependency 'BIJKPlayer' , :git => 'https://e.coding.net/angxyh/linjia/BIJKPlayer.git',
+  s.dependency 'BIJKPlayer', '~> 0.7.16'
+  s.resource_bundles = {'fijkplayer_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
   s.ios.deployment_target = '8.0'
 end
