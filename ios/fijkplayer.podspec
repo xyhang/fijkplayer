@@ -28,7 +28,7 @@ Flutter plugin for ijkplayer
 
   # s.use_frameworks!
 
-  s.dependency 'BIJKPlayerPrivacy', '~> 0.7.16'
+  s.dependency 'BIJKPlayerPrivacy'
   s.resource_bundles = {'fijkplayer_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
   s.ios.deployment_target = '8.0'
