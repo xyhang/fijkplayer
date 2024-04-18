@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:fijkplayer_example/video_page.dart';
+import 'package:fijkplayerprivacy_example/video_page.dart';
 import 'package:flutter/material.dart';
 
 import 'app_bar.dart';

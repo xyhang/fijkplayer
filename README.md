@@ -46,7 +46,7 @@ dependencies:
 ## Example 示例
 
 ```dart
-import 'package:fijkplayer/fijkplayer.dart';
+import 'package:fijkplayerprivacy/fijkplayer.dart';
 import 'package:flutter/material.dart';
 
 class VideoScreen extends StatefulWidget {

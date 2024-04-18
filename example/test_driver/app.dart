@@ -15,7 +15,7 @@
 //SOFTWARE.
 //
 
-import 'package:fijkplayer_example/main.dart' as app;
+import 'package:fijkplayerprivacy_example/main.dart' as app;
 import 'package:flutter_driver/driver_extension.dart';
 
 void main() {

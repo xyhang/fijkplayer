@@ -2,13 +2,13 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'fijkplayer'
-  s.version          = '0.11.0'
+  s.name             = 'fijkplayerprivacy'
+  s.version          = '0.11.2'
   s.summary          = 'Flutter plugin for ijkplayer'
   s.description      = <<-DESC
 Flutter plugin for ijkplayer
                        DESC
-  s.homepage         = 'http://github.com/befovy/fijkplayer'
+  s.homepage         = 'http://github.com/xyhang/fijkplayer'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'befovy' => 'befovy@gmail.com' }
   s.source           = { :path => '.' }
@@ -29,7 +29,7 @@ Flutter plugin for ijkplayer
   # s.use_frameworks!
 
   s.dependency 'BIJKPlayerPrivacy'
-  s.resource_bundles = {'fijkplayer_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+  s.resource_bundles = {'fijkplayerprivacy_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 
   s.ios.deployment_target = '8.0'
 end
